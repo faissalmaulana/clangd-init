@@ -23,8 +23,9 @@ The installer follows the XDG convention and installs the executable to:
 Clone the repository and run:
 
 ```sh
-chmod +x clangd-init/install.sh
-./clangd-init/install.sh
+CD clangd-init
+chmod +x install.sh
+./install.sh
 ```
 
 Verify the installation:
